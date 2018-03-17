@@ -1,0 +1,69 @@
+.btn {
+	border-radius: $radius-btn;
+	color: #fff;
+	display: inline-block;
+	transition: all .3s;
+}
+
+.btn--principal {
+	background-color: $color-base;
+	border-radius: $radius-btn;
+	margin: $space-out-small 0;
+	padding: $space-base $space-out-small;
+
+	&:hover {
+		background-color: $color-cta;
+		color: #fff;
+	}
+}
+
+.btn--secundary {
+	background-color: transparent;
+	border: 2px solid $color-base;
+	padding: 5px 30px;
+	
+	&:hover {
+		background-color: $color-cta;
+		border: 2px solid $color-cta;
+		color: #fff;		
+    }
+}
+
+// .btn--upload {
+
+// 	&:before {
+// 		background: url("../img/icon-upload.svg") no-repeat;
+// 		content: "";
+//     	height: 30px;
+//     	float: left;
+// 		width: 30px;
+// 	}
+// }
+
+// .btn--small {
+    
+// }
+
+// .btn--invert {
+	
+
+//     &:hover {
+		
+//     }
+// }
+
+// .btn-form {
+// 	background-color: $color-contrast;			
+// 	border: none;
+// 	color: #fff;
+// 	cursor: pointer;
+// 	font-family: $font-family-base;
+// 	margin: $space-small 0;
+// 	padding: $space-base;
+// 	transition: background-color 1s; 
+// 	width: 40%;
+	
+// 	&:hover {
+// 	background-color: $color-base;
+// 	}
+// }

@@ -1,0 +1,29 @@
+//fonts
+$font-base: 'Roboto', sans-serif; 
+//$font-contrast:;
+$font-size: 16px;
+
+//colors
+$color-base: gray;
+$color-contrast: SteelBlue;
+$color-accent: DimGray;
+$color-cta: #ba0f1c;
+
+// Inside components
+$space-base: 1rem;
+$space-small: 2rem; //32px
+$space-medium: 4rem; // 56px
+$space-large: 6rem; // 100px
+$space-x-large:10rem; // 160px
+$space-xx-large:12rem; // 192px
+
+// Between components
+$space-out-small: 1.25rem; // 20px
+$space-out-medium: 2rem; // 32px
+$space-out-large: 4rem; // 56px
+$space-out-x-large: 10rem; // 160px
+$space-out-xx-large: 15rem; // 240px
+
+// border radius 
+$radius-principal: 10px;
+$radius-btn: 25px;

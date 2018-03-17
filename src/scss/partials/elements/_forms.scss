@@ -1,0 +1,30 @@
+input {
+	border-radius: $radius-principal;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: $font-size;
+	display: block;
+	padding: 16px $space-base;
+	margin-top: $space-out-small;
+	width: 100%;
+
+	@include query(1200px) {
+		font-size: 20px;
+	}
+
+	&::placeholder {
+	    color: #fff;
+	    opacity: 1; /* Firefox */
+	}
+}
+
+button {
+	background-color: $color-base;
+	border-radius: $radius-btn;
+	margin: $space-out-small 0;
+	padding: 10px;
+
+	&:hover {
+		background-color: $color-cta;
+	}
+}

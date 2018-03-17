@@ -1,0 +1,127 @@
+nav {
+	background-color: $color-accent;
+	padding: $space-base 0;
+	transition: transform 1s;
+	z-index: 10;
+	
+	@include query(980px) {
+		position: relative;
+	}
+}
+
+.menu-icon {
+	display: block;
+	margin: $space-out-medium;
+	width: 36px;
+    @include query(900px) {
+		display: none;
+    }
+
+
+	&:before, 
+	&:after {
+		background-color: #fff;
+		content: '';
+		display: block;
+		height: 4px;
+		transition: all .2s ease-in-out;
+	}
+
+	&:before {
+	    box-shadow: 0 10px 0 #fff;
+	    margin-bottom: 16px;
+	}
+}
+
+.menu-icon-x {
+	&:before {
+		box-shadow: 0 0 0 #fff;
+		transform: translateY(10px) rotate(45deg);
+	}
+	&:after {
+		transform: translateY(-10px) rotate(-45deg);
+	}
+}
+
+.nav-logo {
+	width: 50%;
+	margin: $space-out-small;
+
+	@include query(600px) {
+		width: 30%;
+	}
+
+	@include query(900px) {
+		width: 15%;
+	}
+}
+
+.nav-items {
+	background-color: $color-accent;
+	padding-bottom: $space-base;
+	text-align: left;
+	top: 110px;
+	transition: transform 1.5s;
+	height: 100%;
+	width: 75%;
+	position: fixed;
+	z-index: 8;
+	
+	@include query(900px) {
+		margin-left: 10px;
+		padding-right: 2%;
+		position: relative;
+		text-align: right;
+		top: 0;
+		width:77%;
+	}
+	
+	a { 
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		display: block;
+		padding: 10px 0 10px 35px;
+
+		@include query(900px) {
+			border-bottom: 2px solid transparent;
+			display: inline-block;
+			margin-left: 10px;
+			padding: 30px 0 5px 0;
+		}
+
+		@include query(1024px) {
+			font-size: 18px;
+			margin-left: 20px;
+		}
+		
+		&:hover {
+			border-bottom: 2px solid $color-base;
+		}
+
+	}
+}
+
+.nav--fixed {
+	position: fixed;
+
+	@include query(900px) {
+		position: initial;
+	}
+
+}
+
+.nav-display {
+	transform: translate(-500px, 0);
+
+	@include query(500px) {
+		transform: translate(-700px, 0);
+	}
+
+	@include query(700px) {
+		transform: translate(-910px, 0);
+	}
+
+	@include query(900px) {
+		transform: translate(0, 0);		
+	}
+}

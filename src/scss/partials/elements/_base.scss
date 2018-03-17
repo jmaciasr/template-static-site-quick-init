@@ -1,0 +1,109 @@
+*,
+*:before, 
+*:after {
+        box-sizing: border-box;
+}
+
+// Reset esta basados en:
+// https://github.com/necolas/normalize.css
+// https://github.com/google/material-design-lite/tree/mdl-1.x/src/resets
+
+// Normalize
+// ==========================================================================
+// 1. Change the default font family in all browsers (opinionated).
+// 2. Correct the line height in all browsers.
+// 3. Prevent adjustments of font size after orientation changes in
+//    IE on Windows Phone and in iOS.
+html {
+        font: 1em/1.5 $font-base; // 1
+        width: 100%;
+        height: 100%;
+        background-color: #efefef;
+        -ms-text-size-adjust: 100%; // 3
+        -webkit-text-size-adjust: 100%; // 3
+        overflow-x: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+}
+
+// Remove the margin in all browsers (opinionated).
+body { 
+        color: $color-contrast;
+        margin: 0;
+        min-height: 100%;
+        position: relative;
+        width: 100%;
+}
+
+// Remove text-shadow in selection highlight:
+// https://twitter.com/miketaylr/status/12228805301
+// These selection rule sets have to be separate.
+// Customize the background color to match your design.
+::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+}
+
+// Add the correct display in IE 9-.
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main,
+details,
+menu {
+        display: block;
+}
+
+// Add the correct margin in IE 8.
+figure {
+        margin: 1em 40px;
+}
+
+// Add the correct display in all browsers.
+summary {
+        display: list-item;
+}
+
+// Add the correct display in IE 9-.
+canvas {
+        display: inline-block;
+}
+
+// reset button styles
+button {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-spacing: 0;
+    color: #fff;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: $font-size;
+    font-weight: normal;
+    line-height: 1.42rem;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+
+    &:hover {
+        cursor: pointer;   
+    }
+}
+
+// Add the correct display in IE.
+template {
+        display: none;
+}
+
+// inputs
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}

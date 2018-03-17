@@ -1,0 +1,42 @@
+// #rwd-table {
+//     @extend %responive-tables;
+//     @include responive-tables('Game', 'Start at', 'Score', 'Broadcast');
+// }
+
+// th, 
+// td {
+// 	overflow: hidden;
+// 	text-align: center;
+// 	text-overflow: ellipsis;
+// 	white-space: nowrap;
+// }
+
+// th {
+// 	padding: 10px;
+// }
+
+// tbody tr {	
+// 	&:last-of-type {
+// 		border:0;
+// 	}
+
+// 	&:hover{
+// 		background-color: #eae8e8;
+// 		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .15);
+// 		cursor: pointer;
+// 		transform: translate3d(0, -2px, 0);
+// 	}
+
+// 	border-bottom: 1px solid rgba(0, 0, 0, .13);
+// }
+
+// thead{
+// 	background: $color-base;
+// 	color: #fff;
+// }
+
+// table {
+// 	width: 100%;
+// 	border-collapse: collapse;
+// 	table-layout: fixed;
+// }
