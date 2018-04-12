@@ -18,13 +18,28 @@ input {
 	}
 }
 
+label {
+	font-size: $font-size;
+	margin-bottom: $space-out-small;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	display: inline-block;
+    margin: 0 $space-out-small $space-out-medium 0;
+    width: 25px;
+}
+
 button {
-	background-color: $color-base;
+	color: red;
+	border-radius: $radius-btn;
+	color: #fff;
+	display: block;
 	border-radius: $radius-btn;
 	margin: $space-out-small 0;
-	padding: 10px;
+	padding: $space-base $space-large;
 
 	&:hover {
-		background-color: $color-cta;
+		color: $color-base;
 	}
 }

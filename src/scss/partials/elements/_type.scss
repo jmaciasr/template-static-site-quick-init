@@ -89,13 +89,17 @@ p,
 li,
 dd,
 dt {
-  font-size: $font-size;
+    font-size: $font-size;
 
-  // @include query(720px) {
-  //   font-size: 18px;
-  // } 
+    // @include query(720px) {
+    //   font-size: 18px;
+    // } 
 }
 
-p {
-  margin-buttom: $space-out-medium;
+ul {
+    margin: 0;
+}
+
+li {
+    padding-bottom: $space-base;
 }

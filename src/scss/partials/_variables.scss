@@ -1,7 +1,7 @@
 //fonts
 $font-base: 'Roboto', sans-serif; 
 //$font-contrast:;
-$font-size: 16px;
+$font-size: 18px;
 
 //colors
 $color-base: gray;
@@ -26,4 +26,9 @@ $space-out-xx-large: 15rem; // 240px
 
 // border radius 
 $radius-principal: 10px;
-$radius-btn: 25px;
+$radius-btn: 10px;
+
+// shadows 
+$shadow-soft:  0px 2px 10px #000;
+$shadow-mid:  0px 2px 20px #000;
+$shadow-hard:  5px 5px 15px #000;
