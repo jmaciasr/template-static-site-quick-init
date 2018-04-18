@@ -1,5 +1,5 @@
 nav {
-	background-color: $color-nav;
+	background-color: $color-contrast;
 	font-size: $font-size;
 	padding-bottom: $space-small;
 
@@ -35,7 +35,7 @@ nav {
 }
 
 .nav__items {
-	background-color: $color-nav;
+	background-color: $color-contrast;
 	padding-bottom: $space-base;
 	top: 130px;
 	transition: transform 1.5s;
@@ -146,7 +146,7 @@ nav {
 }
 
 .language {
-	background-color: $color-contrast-dark;
+	background-color: $color-contrast;
 	padding: 5px 2% 5px 0;
 	text-align: right;
 	width: 100%;
